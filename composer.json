@@ -1,0 +1,17 @@
+{
+    "name": "questhomes/stub",
+    "description": "A simple Hello World example package for Packagist.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "questhomes\\MyHelloWorldPackagist\\": "src/"
+        }
+    }
+}
